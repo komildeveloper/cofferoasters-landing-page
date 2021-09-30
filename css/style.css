@@ -28,13 +28,9 @@ a {
   display: inline-block;
 }
 
-.header {
-  background-color: #fff;
-  padding: 44px 0 34px;
-}
-
 /* SAME ELEMENTS */
 .container,
+.header__container,
 .collection__container {
   max-width: 1280px;
   margin: 0 auto;
@@ -84,6 +80,11 @@ a {
 }
 
 /* HEADER */
+.header {
+  background-color: #fff;
+  padding: 44px 0 34px;
+}
+
 .header__list {
   justify-content: space-around;
 }
