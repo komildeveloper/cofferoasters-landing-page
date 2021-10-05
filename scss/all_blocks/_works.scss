@@ -1,0 +1,103 @@
+.works {
+  margin: 400px 0 200px;
+
+  .works__container {
+    max-width: 1045px;
+
+    .works__title {
+      font-weight: 900;
+      font-family: 'Fraunces', sans-serif;
+      font-size: 24px;
+      color: $grey;
+      margin-bottom: 80px;
+      line-height: 32px;
+    }
+
+    .works__line {
+      position: relative;
+      display: block;
+      width: 760px;
+      border: 2px solid $pale-orange;
+      margin-bottom: 67px;
+
+      &::before,
+      &::after {
+        position: absolute;
+        content: '';
+        display: block;
+        width: 31px;
+        height: 31px;
+        border: 2px solid #0e8784;
+        background-color: #f2f2f2;
+        border-radius: 50%;
+      }
+
+      &::before {
+        right: 50%;
+        top: 0;
+        transform: translate(50%, -50%);
+      }
+
+      &::after {
+        right: 0;
+        top: 0;
+        transform: translate(50%, -50%);
+
+        .works__sub-line::before {
+          position: absolute;
+          content: '';
+          width: 31px;
+          height: 31px;
+          border: 2px solid #0e8784;
+          background-color: #f2f2f2;
+          border-radius: 50%;
+          transform: translate(-50%, -50%);
+        }
+      }
+    }
+
+    .works__list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .works__item {
+        width: 285px;
+
+        .works__heading {
+          font-weight: 900;
+          font-family: 'Fraunces', sans-serif;
+          font-size: 72px;
+          color: $pale-orange;
+          line-height: 72px;
+        }
+
+        .works__subtitle {
+          font-weight: 900;
+          font-family: 'Fraunces', sans-serif;
+          font-size: 32px;
+          color: $dark-grey-blue;
+          line-height: 36px;
+          margin: 38px 0 42px;
+        }
+
+        .works__text {
+          color: $dark-grey-blue;
+          margin-bottom: 64px;
+          line-height: 26px;
+        }
+      }
+    }
+
+    .works__link {
+      font-weight: 900;
+      font-size: 18px;
+      font-family: 'Fraunces', sans-serif;
+      color: $light-cream;
+      background-color: $dark-cyan;
+      padding: 16px 31px;
+      border-radius: 8px;
+      line-height: 25px;
+    }
+  }
+}
