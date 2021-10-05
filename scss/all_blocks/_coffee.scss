@@ -1,0 +1,41 @@
+.coffee {
+  margin-bottom: 136px;
+  border-radius: 8px;
+
+  &__container {
+    width: 100vw;
+    background-image: url('../img/coffee/bitmap.jpg');
+    background-size: cover;
+    padding: 117px 86px;
+
+    .coffee__article {
+      width: 493px;
+
+      .coffee__heading {
+        font-weight: 900;
+        font-family: 'Fraunces', sans-serif;
+        font-size: 72px;
+        color: $light-cream;
+        line-height: 72px;
+      }
+
+      .coffee__text {
+        color: $light-cream-alpha;
+        margin: 0 0 56px;
+        line-height: 26px;
+        mix-blend-mode: normal;
+      }
+
+      .coffee__link {
+        font-weight: 900;
+        font-family: 'Fraunces', sans-serif;
+        font-size: 18px;
+        background-color: $dark-cyan;
+        padding: 16px 31px;
+        line-height: 25px;
+        border-radius: 8px;
+        color: $light-cream;
+      }
+    }
+  }
+}
