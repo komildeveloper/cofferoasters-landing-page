@@ -1,0 +1,143 @@
+.container,
+.header__container,
+.collection__container,
+.choose__container,
+.footer__container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header__list,
+.header__nav,
+.collection__list,
+.choose__list-item,
+.works__list,
+.footer__list,
+.footer__sub-list,
+.footer__sub-nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav-link,
+.footer__sub-nav-link {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  transition: color 300ms ease-in;
+}
+
+.header__item:nth-of-type(1),
+.header__item:nth-of-type(2),
+.collection__list {
+  flex-grow: 1;
+}
+
+.header__logo-text,
+.header__nav-link:hover,
+.collection__heading,
+.collection__text,
+.footer__logo-text {
+  color: #333d4b;
+}
+
+.header__logo-text,
+.coffee__heading,
+.coffee__link,
+.collection__heading,
+.choose__heading,
+.choose__list-heading,
+.works__title,
+.works__heading,
+.works__subtitle,
+.works__link,
+.footer__logo-text {
+  font-weight: 900;
+  font-family: 'Fraunces', sans-serif;
+}
+
+.coffee__container,
+.coffee__link,
+.choose__list-item,
+.works__link {
+  border-radius: 8px;
+}
+
+.coffee__text,
+.collection__text,
+.choose-text,
+.choose__list-text,
+.works__text {
+  line-height: 26px;
+}
+
+.header__logo-text,
+.collection__heading,
+.choose__list-heading,
+.works__title,
+.footer__logo-text {
+  font-size: 24px;
+}
+
+.coffee__heading,
+.coffee__link,
+.choose__heading,
+.choose__list-text,
+.works__link {
+  color: #fefcf7;
+}
+
+.collection__list,
+.choose__heading,
+.choose__text,
+.choose__list-heading,
+.choose__list-text {
+  text-align: center;
+}
+
+.coffee__text,
+.choose__text {
+  color: #fefcf7cc;
+  mix-blend-mode: normal;
+}
+
+.coffee__link,
+.works__link {
+  font-size: 18px;
+  background-color: #0e8784;
+  padding: 16px 31px;
+  line-height: 25px;
+}
+
+.collection__heading,
+.choose__list-heading,
+.works__title {
+  line-height: 32px;
+}
+
+.choose__container,
+.footer__container {
+  background-color: #2c343e;
+}
+
+.choose__list-heading,
+.footer__logo-text {
+  color: #fff;
+}
+
+.choose__list-item:first-of-type .choose__list-icon::before,
+.choose__list-item:nth-of-type(2) .choose__list-icon::before,
+.choose__list-item:last-of-type .choose__list-icon::before,
+.works__line,
+.works__line::before,
+.works__line::after,
+.works__sub-line::before {
+  display: block;
+}
+
+.works__text,
+.works__subtitle {
+  color: #333d4b;
+}
