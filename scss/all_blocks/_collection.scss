@@ -1,0 +1,36 @@
+.collection {
+  margin-bottom: 200px;
+
+  &__container {
+    max-width: 1111px;
+    margin: 0 auto;
+    background-image: url('../img/collection/our-collection.png');
+    background-repeat: no-repeat;
+
+    .collection__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-grow: 1;
+      text-align: center;
+      padding-top: 125px;
+
+      .collection__heading {
+        font-weight: 900;
+        font-family: 'Fraunces', sans-serif;
+        font-size: 24px;
+        color: $dark-grey-blue;
+        line-height: 32px;
+        text-transform: capitalize;
+        margin: 0 0 24px;
+      }
+
+      .collection__text {
+        width: 255px;
+        font-family: 'Barlow', sans-serif;
+        color: $dark-grey-blue;
+        line-height: 26px;
+      }
+    }
+  }
+}
